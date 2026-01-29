@@ -201,7 +201,7 @@ main {
 }
 
 .card-column {
-  flex: 0 0 30%; /* Adjust this value to control the maximum card width */
+  flex: 0 0 30%;
   margin-right: 2vh;
   display: flex;
   flex-direction: column;
@@ -254,7 +254,6 @@ main {
   background-color: #f9f9f9;
   padding: 1vh;
   box-sizing: border-box;
-  max-height: calc(55vh - 4vh); /* Subtract the padding from the max-height */
   overflow-y: auto;
   overflow-x: hidden;
 }
